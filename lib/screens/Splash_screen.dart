@@ -1,0 +1,40 @@
+import 'dart:async';
+import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:flutter/material.dart';
+import 'package:handyfarm/utils/colors.dart';
+
+import 'LoginFormValidation.dart';
+
+class SplashPage extends StatefulWidget {
+  @override
+  _SplashPageState createState() => _SplashPageState();
+}
+
+class _SplashPageState extends State<SplashPage> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    Timer(const Duration(milliseconds: 4000), () {
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => LoginFormValidation()));
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+              colors: [blueColors, blueLightColors],
+              end: Alignment.bottomCenter,
+              begin: Alignment.topCenter),
+        ),
+        child: Center(
+          child: Image.asset("assets/logo.png"),
+        ),
+      ),
+    );
+  }
+}
