@@ -29,6 +29,32 @@ The application brings several farm-management activities into one system, inclu
 - 🚜 Machinery management
 
 ---
+## 📱 Application Screenshots
+
+HandyFarm provides a simple mobile interface for managing livestock, financial records, milk production, farm events, and other day-to-day farming activities.
+
+### Main Dashboard & Farm Records
+
+<p align="center">
+<img width="1017" height="549" alt="image" src="https://github.com/user-attachments/assets/01157c28-bb4b-4269-afb1-4a08cf1cebc3" />
+</p>
+
+<p align="center">
+  <i>HandyFarm dashboard showing livestock statistics, income and expense reporting, and milk production records.</i>
+</p>
+
+### Transactions, Cattle Analytics & Events
+
+<p align="center">
+ <img width="1026" height="542" alt="image" src="https://github.com/user-attachments/assets/efbf0c89-fc42-4211-8fa0-f2f932dcb3d8" />
+
+</p>
+
+<p align="center">
+  <i>Farm management modules showing transactions, cattle analytics, and livestock events such as vaccination, medication, tagging, and deworming.</i>
+</p>
+
+---
 
 ## 🎯 Problem Statement
 
